@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Firewall calculator</title>
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <script src="home.js"></script>
+    </head>
+    <body>
+    <div id="calc">
+    <header>
+        <h1>TP CALCULATOR</h1>
+     </header>
+     <article>
+     <section>
+        <hr>
+        <div id="intro">
+        <p>Hi,I'm Nithin Balasubramanian.The word <strong>TechPara</strong> or <strong>TP</strong> stands for <strong>TechnologicalParadice</strong>.This web consist of basic calculator and calculation to find out area and volume of various shaped surface.</p>
+        <div id="sur">
+            <ul><b style="color:green">Click On To Calculation</b>
+                <li><a href="#bcal">Basic calculator</a></li>
+                <li><a href="#avc">Area & Volume of cylinder</a></li>
+                 <li><a href="#avr">Area & Volume of Rectangle</a></li>
+                 <li><a href="#avs">Area & Volume of Square</a></li>
+                 <li><a href="#avco">Area & Volume of Cone</a></li>
+                 <li><a href="#avcu">Area & Volume of Cube</a></li>
+            </ul>
+        </div>
+        </div>
+        </section>
+        <section>
+        <div id="bcal">
+        <br />
+        <hr>
+        <h2>Basic Calculator</h2>
+Enter the value a:<input type="number" id="a" placeholder="enter a number">
+<br/>
+Enter the value b:<input type="number" id="b"
+placeholder="enter a number">
+<br/>
+<!--Enter the value c:<input type="number" id="c"
+placeholder="enter a number">
+<br/>-->
+<br />
+<div id="s">
+<ul>
+<li>
+<button onclick="add();">ADD</button>
+</li>
+<li>
+<button onclick="sub();">SUB</button>
+</li>
+<button onclick="mul();">MUL</button>
+</li>
+<li>
+<button onclick="div();">DIV</button>
+</li>
+<li>
+<button onclick="clr();">CLR</button>
+</li>
+</ul>
+</div>
+<p id="x"></p>
+<p id="y"></p>
+</div>
+</section>
+<section>
+<div id="avc">
+<br />
+<hr>
+    <h2>Area & Volume of Cylinder</h2>
+Enter the diameter:<input type="number" placeholder="Enter diameter in meter" id="diameter">
+<br/>
+Enter the depth&nbsp&nbsp&nbsp&nbsp&nbsp :<input type="number" placeholder="Enter depth in meter" id="depth">
+<br />
+<button onclick="area1();">AREA & VOLUME</button>
+<button onclick="clr1();">CLEAR</button>
+<div id="rav">
+<p id="rad"></p>
+<p id="area"></p>
+<p id="vol"></p>
+</div>
+</div>
+</section>
+<section>
+<div id="avr">
+<br />
+<hr>
+    <h2>Area & Volume of Rectangle</h2>
+Enter the length &nbsp :<input type="number" placeholder="Enter length in meter" id="length">
+<br/>
+Enter the breadth:<input type="number" placeholder="Enter breadth in meter" id="breadth">
+<br/>
+Enter the heigth&nbsp&nbsp&nbsp:<input type="number" placeholder="Enter heigth in meter" id="heigth">
+<br />
+<button onclick="area2();">AREA & VOLUME</button>
+<button onclick="clr2();">CLEAR</button>
+<div id="rav1">
+<p id="area1"></p>
+<p id="vol1"></p>
+</div>
+</div>
+</section>
+<section>
+<div id="avs">
+<br />
+<hr>
+    <h2>Area & Volume of Square</h2>
+Enter the side&nbsp&nbsp&nbsp&nbsp:<input type="number" placeholder="Enter side length in meter" id="side">
+<br/>
+Enter the heigth:<input type="number" placeholder="Enter heigth in meter" id="heigth1">
+<br />
+<button onclick="area3();">AREA & VOLUME</button>
+<button onclick="clr3();">CLEAR</button>
+<div id="rav2">
+<p id="area2"></p>
+<p id="vol2"></p>
+</div>
+</div>
+<div id="avco">
+<br />
+<hr>
+    <h2>Area & Volume of cone</h2>
+Enter the Diameter:<input type="number" placeholder="Enter diameter length in meter" id="diam"><br>
+Enter the heigth&nbsp&nbsp&nbsp&nbsp&nbsp:<input type="number" placeholder="Enter heigth in meter" id="heigth2">
+<br />
+<button onclick="area4();">AREA & VOLUME</button>
+<button onclick="clr4();">CLEAR</button>
+<div id="rav3">
+<p id="area3"></p>
+<p id="vol3"></p>
+</div>
+</div>
+<div id="avcu">
+<br />
+<hr>
+    <h2>Area & Volume of Cube</h2>
+Enter the Side:<input type="number" placeholder="Enter side length in meter" id="side1">
+<br />
+<button onclick="area5();">AREA & VOLUME</button>
+<button onclick="clr5();">CLEAR</button>
+<div id="rav4">
+<p id="area4"></p>
+<p id="vol4"></p>
+</div>
+</div>
+</div>
+</section>
+<hr>
+</article>
+<footer>
+    &copy2K18 TechPara-FIREWALL<br/>
+    on construction 
+    <hr>
+</footer>
+
+    </body>
+</html>

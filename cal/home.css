@@ -1,0 +1,93 @@
+body {
+    color:black;
+    background-color:white;
+    font-size:25px;
+    font-weight :bold;
+}
+header{
+    color:brown;
+    font-weight:bold;
+    text-align:center;
+    height:45px;
+    Width:60%;
+    margin-right:auto;
+    margin-left:auto;
+   // font-size:40px;
+}
+h1{
+      text-shadow:5px 4px 0px gray;
+      //color:brown;
+      font-family:Times new roman;
+     // text-align:center;
+     font-size:40px;
+      //text-align:center;
+      //font-weight :bold;
+}
+h2{
+    color:blue;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:brown;
+    font-weight:bold;
+    font-size:25px;
+}
+a.hover{
+    color:red;
+}
+#intro{
+    font-style:italic;
+    height:400px;
+}
+#calc{
+    height:3#500px;
+    width:100%;
+}
+#bcal{
+    height:500px;
+    width:100%;
+}
+input{
+    border-radius:10px;
+    padding:4px;
+}
+button{
+    border-radius:10px;
+    font-weight:bold;
+}
+#x,#y{
+    color:green;
+    font-size:30px;
+    font-weight:bold;
+}
+footer{
+    color:green;
+    font-weight:bold;
+    text-align:center;
+    font-size:35px;
+}
+#bcal ul li{
+    display:inline;
+    
+}
+#rav,#rav1,#rav2,#rav3,#rav4{
+    color:green;
+    font-weight:bold;
+    font-size :30px;
+}
+#avc{
+    height:500px;
+}
+#avr{
+    height:500px;
+}
+#avs{
+    height:500px;
+}
+#avco{
+	height:500px;
+}  
+#avcu{
+	height:500px;
+}  
